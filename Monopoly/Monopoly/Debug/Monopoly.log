@@ -1,4 +1,53 @@
 ﻿C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (SFML1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
   MonopolyTable.cpp
-  Monopoly.vcxproj -> C:\Users\Usuario\Documents\Visual Studio 2015\Projects\Monopoly\Monopoly\Debug\Monopoly.exe
-  Monopoly.vcxproj -> C:\Users\Usuario\Documents\Visual Studio 2015\Projects\Monopoly\Monopoly\Debug\Monopoly.pdb (Partial PDB)
+c:\users\usuario\documents\visual studio 2015\projects\monopoly\monopoly\monopolytable.cpp(18): error C2374: 'P3': redefinition; multiple initialization
+  c:\users\usuario\documents\visual studio 2015\projects\monopoly\monopoly\monopolytable.cpp(17): note: see declaration of 'P3'
+c:\users\usuario\documents\visual studio 2015\projects\monopoly\monopoly\monopolytable.cpp(30): error C2466: cannot allocate an array of constant size 0
+c:\users\usuario\documents\visual studio 2015\projects\monopoly\monopoly\monopolytable.cpp(30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\usuario\documents\visual studio 2015\projects\monopoly\monopoly\monopolytable.cpp(30): error C2040: 'Players': 'int [0]' differs in levels of indirection from 'std::vector<Player,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=Player
+          ]
+c:\users\usuario\documents\visual studio 2015\projects\monopoly\monopoly\monopolytable.cpp(30): error C2440: 'initializing': cannot convert from 'Player' to 'int [0]'
+  c:\users\usuario\documents\visual studio 2015\projects\monopoly\monopoly\monopolytable.cpp(30): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+c:\users\usuario\documents\visual studio 2015\projects\monopoly\monopoly\monopolytable.cpp(31): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\usuario\documents\visual studio 2015\projects\monopoly\monopoly\monopolytable.cpp(31): error C2040: 'Players': 'int [1]' differs in levels of indirection from 'std::vector<Player,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=Player
+          ]
+c:\users\usuario\documents\visual studio 2015\projects\monopoly\monopoly\monopolytable.cpp(31): error C2440: 'initializing': cannot convert from 'Player' to 'int [1]'
+  c:\users\usuario\documents\visual studio 2015\projects\monopoly\monopoly\monopolytable.cpp(31): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+c:\users\usuario\documents\visual studio 2015\projects\monopoly\monopoly\monopolytable.cpp(32): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\usuario\documents\visual studio 2015\projects\monopoly\monopoly\monopolytable.cpp(32): error C2040: 'Players': 'int [2]' differs in levels of indirection from 'std::vector<Player,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=Player
+          ]
+c:\users\usuario\documents\visual studio 2015\projects\monopoly\monopoly\monopolytable.cpp(32): error C2440: 'initializing': cannot convert from 'Player' to 'int [2]'
+  c:\users\usuario\documents\visual studio 2015\projects\monopoly\monopoly\monopolytable.cpp(32): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+c:\users\usuario\documents\visual studio 2015\projects\monopoly\monopoly\monopolytable.cpp(33): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\usuario\documents\visual studio 2015\projects\monopoly\monopoly\monopolytable.cpp(33): error C2040: 'Players': 'int [3]' differs in levels of indirection from 'std::vector<Player,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=Player
+          ]
+c:\users\usuario\documents\visual studio 2015\projects\monopoly\monopoly\monopolytable.cpp(33): error C2440: 'initializing': cannot convert from 'Player' to 'int [3]'
+  c:\users\usuario\documents\visual studio 2015\projects\monopoly\monopoly\monopolytable.cpp(33): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+c:\users\usuario\documents\visual studio 2015\projects\monopoly\monopoly\monopolytable.cpp(34): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\usuario\documents\visual studio 2015\projects\monopoly\monopoly\monopolytable.cpp(34): error C2040: 'Players': 'int [4]' differs in levels of indirection from 'std::vector<Player,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=Player
+          ]
+c:\users\usuario\documents\visual studio 2015\projects\monopoly\monopoly\monopolytable.cpp(34): error C2440: 'initializing': cannot convert from 'Player' to 'int [4]'
+  c:\users\usuario\documents\visual studio 2015\projects\monopoly\monopoly\monopolytable.cpp(34): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+c:\users\usuario\documents\visual studio 2015\projects\monopoly\monopoly\monopolytable.cpp(35): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\usuario\documents\visual studio 2015\projects\monopoly\monopoly\monopolytable.cpp(35): error C2040: 'Players': 'int [5]' differs in levels of indirection from 'std::vector<Player,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=Player
+          ]
+c:\users\usuario\documents\visual studio 2015\projects\monopoly\monopoly\monopolytable.cpp(35): error C2440: 'initializing': cannot convert from 'Player' to 'int [5]'
+  c:\users\usuario\documents\visual studio 2015\projects\monopoly\monopoly\monopolytable.cpp(35): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
